@@ -1,0 +1,23 @@
+experiment_name: "tf_early_fusion_baseline"
+seed: 42
+
+paths:
+  images_root: "data/raw/images_by_class"    # справочно
+  dna_csv: "data/raw/dna/cancer_dna.csv"
+  patients_csv: "data/processed/patients.csv"
+  splits_dir: "data/processed/splits"
+  outputs_dir: "outputs/tf_early_fusion_baseline"
+
+task:
+  type: "classification"
+
+images:
+  img_size: 224
+
+training:
+  batch_size: 16
+  epochs: 10
+  lr: 1e-4
+
+model:
+  dropout: 0.2
