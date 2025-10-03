@@ -1,0 +1,13 @@
+{
+  "n_samples": 20000,
+  "img_h": 32,
+  "img_w": 32,
+  "n_genes": 200,
+  "n_tokens": 20,
+  "val_ratio": 0.15,
+  "test_ratio": 0.0,
+  "pos_rate": 0.5,
+  "n_batches": 5,
+  "seed": 17,
+  "out_npz": "data/paired_mm.npz"
+}
